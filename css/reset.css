@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+a{text-decoration: none; color: inherit;}
+
+ul , li, ol{list-style: none;}
+
+img{vertical-align: top;}
+
+table{border-collapse: collapse;}
+
+.clear_fix::after , .clear_fix::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    font-size: 14px;
+    color: #333;
+    font-family: "돋움" ,serif;
+}
